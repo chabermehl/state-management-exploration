@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "workspaces": [
+    "repo-configs/*",
+    "jotai",
+    "zustand",
+    "recoil",
+    "redux"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "prettier": "^2.5.1",
+    "turbo": "latest",
+    "typescript": "latest"
+  }
+}
