@@ -1,9 +1,10 @@
 import React from "react";
+import { Counter } from "./Counter/Counter";
 
 const App: React.FC = () => {
   return (
     <div>
-      <h1>REDUX</h1>
+      <Counter />
     </div>
   );
 };
