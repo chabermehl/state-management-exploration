@@ -8,16 +8,18 @@ You should have to touch this unless you want to add another project but apart f
 
 ### Workspaces
 
-* `jotai`
-* `recoil`
-* `redux`
-* `zustand`
+* `jotai-app`
+* `recoil-app`
+* `redux-app`
+* `xstate-app`
+* `zustand-app`
 
 ### Adding A Workspace
 
 1. Make a new folder.
 2. Add the folder as a workspace to the top level `package.json` in the `workspaces` field.
 3. Set the name of the `package.json` in the new workspace as the name that was added to the `workspaces` field in the top level `package.json`.
+4. Run `yarn workspaces info` to see if yarn has correctly picked up the workspace.
 
 Optionally:
 
@@ -42,7 +44,9 @@ This repo is managed by yarn workspaces. To add a package to a particular worksp
 
 `yarn workspace <name of workspace> add <package name>`
 
-Example: `yarn workspace jotai add lodash`
+Example:
+
+`yarn workspace jotai-app add lodash`
 
 ## Explored Libraries - Building
 
