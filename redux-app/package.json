@@ -1,17 +1,18 @@
 {
-  "name": "recoil",
+  "name": "redux-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3003",
+    "dev": "vite --port=3002",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "recoil": "^0.7.6"
+    "react-redux": "^8.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",

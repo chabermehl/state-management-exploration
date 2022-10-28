@@ -8,12 +8,14 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier",
   ],
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "react-hooks"],
   parserOptions: {
     sourceType: "module",
     ecmaVersion: 2020,
   },
   rules: {
     "@typescript-eslint/no-non-null-assertion": "off",
-  },
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+  }
 };

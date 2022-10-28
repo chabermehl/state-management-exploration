@@ -2,10 +2,10 @@
   "private": true,
   "workspaces": [
     "repo-configs/*",
-    "jotai",
-    "zustand",
-    "recoil",
-    "redux"
+    "jotai-app",
+    "zustand-app",
+    "recoil-app",
+    "redux-app"
   ],
   "scripts": {
     "build": "turbo run build",
@@ -19,5 +19,8 @@
     "prettier": "^2.5.1",
     "turbo": "latest",
     "typescript": "latest"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
