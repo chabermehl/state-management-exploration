@@ -48,26 +48,31 @@ Example: `yarn workspace jotai add lodash`
 
 ### Turborepo
 
-Dcos: https://turbo.build/repo
+Dcos: <https://turbo.build/repo>
 
 ### Vite
 
-Docs: https://vitejs.dev/
+Docs: <https://vitejs.dev/>
 
 ## Explored Libraries - State Management
 
 ### Jotai
 
-Docs: https://jotai.org/docs/introduction
+Docs: <https://jotai.org/docs/introduction>
 
 ### Recoil
 
-Docs: https://recoiljs.org/
+Docs: <https://recoiljs.org/>
 
 ### Redux + RTK
 
-Docs: https://redux-toolkit.js.org/
+Docs: <https://redux-toolkit.js.org/>
+
+### XState
+
+Docs (Main): <https://xstate.js.org/docs/>  
+Docs (React): <https://xstate.js.org/docs/recipes/react.html>
 
 ### Zustand
 
-Docs: https://docs.pmnd.rs/zustand/getting-started/introduction
+Docs: <https://docs.pmnd.rs/zustand/getting-started/introduction>
