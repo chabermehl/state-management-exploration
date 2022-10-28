@@ -1,9 +1,15 @@
 import React from "react";
 
+import { Counter } from "./Counter";
+import { Incrementer } from "./Incrementer";
+import { Decrementer } from "./Decrementer";
+
 const App: React.FC = () => {
   return (
     <div>
-      <h1>JOTAI</h1>
+      <Counter />
+      <Incrementer />
+      <Decrementer />
     </div>
   );
 };
