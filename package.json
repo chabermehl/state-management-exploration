@@ -5,7 +5,8 @@
     "jotai-app",
     "zustand-app",
     "recoil-app",
-    "redux-app"
+    "redux-app",
+    "xstate-app"
   ],
   "scripts": {
     "build": "turbo run build",
