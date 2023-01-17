@@ -1,32 +1,21 @@
 import React from "react";
-import create from 'zustand'
-
-type State = {
-  bears: number;
-  increasePopulation: () => any;
-}
-
-const useStore = create<State>((set) => ({
-  bears: 0,
-  increasePopulation: () => set((state) => ({ bears: state.bears + 1 })),
-  removeAllBears: () => set({ bears: 0 }),
-}))
-
-const BearCounter = () => {
-  const bears = useStore((state) => state.bears)
-  return <h1>{bears} around here ...</h1>
-}
-
-const Controls = () => {
-  const increasePopulation = useStore((state) => state.increasePopulation)
-  return <button onClick={increasePopulation}>one up</button>
-}
+import { LanguageActions } from "./LanguageActions";
+import { LanguageList } from "./LanguageList";
 
 const App: React.FC = () => {
   return (
-    <div>
-      <BearCounter />
-      <Controls />
+    <div style={{
+      display: 'grid',
+      gridTemplateColumns: '1fr 1fr',
+      width: '90%',
+      placeItems: "center"
+    }}>
+      <div>
+        <LanguageList />
+      </div>
+      <div>
+        <LanguageActions />
+      </div>
     </div>
   );
 };
